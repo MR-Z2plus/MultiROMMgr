@@ -110,6 +110,28 @@
             ]
         },
         {
+            "names": [ "z2_plus", "Z2_PLUS", "Z2_Plus", "z2plus", "Z2PLUS", "Z2Plus", "z2131", "Z2131" ],
+            "ubuntu_touch": {
+                "enabled": false,
+                "base_url": ""
+            },
+            "official": false,
+            "devices": [
+                {
+                    "name": "recovery",
+                    "path": "/dev/block/bootdevice/by-name/recovery"
+                },
+                {
+                    "name": "boot",
+                    "path": "/dev/block/bootdevice/by-name/boot"
+                },
+                {
+                    "name": "cache",
+                    "path": "/dev/block/bootdevice/by-name/cache"
+                }
+            ]
+        },
+        {
             "names": [ "HM2014811", "HM2014812", "HM2014813", "HM2014814", "HM2014815", "HM2014816", "HM2014817", "HM2014818", "HM2014819", "HM2014820", "HM2014821", "HM2014112", "wt88047", "wt86047", "Redmi-2" ],
             "ubuntu_touch": {
                 "enabled": false,
